@@ -58,6 +58,7 @@ target/
 
 # Source
 *.txt
+*.tex
 defs/
 modified_source/
 result/
