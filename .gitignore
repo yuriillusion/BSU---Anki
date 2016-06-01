@@ -66,3 +66,9 @@ source/
 
 # PyCharm
 .idea/
+*.pyc
+
+# BSU-Anki
+output/
+source/
+additional_documents/

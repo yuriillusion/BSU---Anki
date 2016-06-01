@@ -28,7 +28,7 @@ def get_cards(dir):
 
 
 if __name__ == '__main__':
-    tokens = get_cards('modified_source')
-    with open('result\\cards.txt', 'w') as file:
+    tokens = get_cards('source')
+    with open('output/cards.txt', 'w') as file:
         for token in tokens:
             file.write(token.encode('utf-8'))
